@@ -1,0 +1,7 @@
+services:
+  devcontainer:
+    image: ayururutia/go
+    volumes:
+      - ../..:/workspaces:cached
+    command: sleep infinity
+    network_mode: "host"
